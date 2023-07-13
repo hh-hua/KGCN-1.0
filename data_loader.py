@@ -24,6 +24,13 @@ class DataLoader:
                 'rating_path': 'data/music/user_artists.dat',
                 'rating_sep': '\t',
                 'threshold': 0.0
+            },
+            'book': {
+                'item2id_path': 'data/book/item_index2entity_id.txt',
+                'kg_path': 'data/book/kg.txt',
+                'rating_path': 'data/book/output.csv',
+                'rating_sep': ',',
+                'threshold': 0.0
             }
         }
         self.data = data
